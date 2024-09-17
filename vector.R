@@ -1,0 +1,16 @@
+vec1=c(2,4,6)
+vec1
+vec1[6]
+length(vec1)
+typeof(vec1)
+vec1[2]=5
+vec1=NULL
+?seq
+v1=seq(from=1,to=10,by=2)
+seq(from=1,to=100,length.out=5)
+sum(v1)
+v2=c(1,2,3,NA)
+sum(v2)
+sum(v2,na.rm=TRUE)
+v1[2]
+v1[c(2,4)]
