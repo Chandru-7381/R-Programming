@@ -1,0 +1,11 @@
+?data.frame
+uid=c(1,2,3,4,NA)
+uname=c("VTU","AST","CED","AIU","GYU")
+strength=c(1234,2342,3421,3421,3454)
+result=c(99,87,85,96,94)
+location=c("belagavi","banglore","mumbai","chennai","gujurat")
+uni_data=data.frame("ID"=uid,"UNIVERSITY"=uname,"STRENGTH"=strength,"RESULT"=result,"LOCATION"=location)
+uni_data
+str(uni_data)
+summary(uni_data)
+getwd()
